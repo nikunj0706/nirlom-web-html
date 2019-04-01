@@ -36,8 +36,7 @@ $(document).ready(function() {
     --------------------------*/
     jQuery("#load").fadeOut();
     jQuery("#loading").delay(0).fadeOut("slow");
-
-
+    
 
     /*------------------------
     Back To Top

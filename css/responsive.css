@@ -44,6 +44,7 @@ NOTE: This file contains the styling for responsive Template.
 	/*----------------
 	Section padding 
 	----------------*/
+	.iq-page-blog {padding: 80px 0 0 0;}
 	.overview-block-ptb { padding: 80px 0; }
 	.overview-block-pt { padding: 80px 0 0; }
 	.overview-block-pb { padding: 0 0 80px;  }
@@ -190,6 +191,8 @@ NOTE: This file contains the styling for responsive Template.
 	header.new-header .navbar .navbar-nav .nav-item a{padding: 10px 15px;}
 	header.new-header .navbar .navbar-nav .nav-item a.active{color: #4ac4f3;}
 
+	.achive-lr{padding: 0 60px 0 60px; margin-bottom: 50px;}
+
 }
 @media(max-width:979px) {
 	.container { max-width: 94%; }
@@ -216,6 +219,7 @@ NOTE: This file contains the styling for responsive Template.
 	/*----------------
 		Section padding 
 		----------------*/
+	.iq-page-blog {padding: 50px 0 0 0;}
 	.overview-block-ptb { padding: 50px 0; }
 	.overview-block-pt { padding: 50px 0 0; }
 	.overview-block-pb { padding: 0 0 50px; }
@@ -286,6 +290,8 @@ NOTE: This file contains the styling for responsive Template.
 	.iq-fancy-boxnew{padding: 0px 15px 25px 15px;}
 	.iq-banner-13 .banner-text{margin-top: 13%;}
 	.iq-tw-9 {font-weight: 700;}
+
+	.achive-lr{padding: 0;}
 }
 @media(max-width:479px) {
 	.iq-banner .banner-text h1, .iq-banner-07 .banner-text h1, .iq-banner-08 .banner-text h1 { font-size: 28px; line-height: normal;}

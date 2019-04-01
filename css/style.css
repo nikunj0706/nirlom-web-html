@@ -1266,7 +1266,9 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 .iq-loved-customers .owl-carousel .owl-item .item { padding: 10px 10px 20px; }
 .iq-client { position: relative; margin-top: 40px; padding: 30px; text-align: center; border: 1px solid #f2f2f2; -webkit-box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06); box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.06); }
 .iq-client:before { position: absolute; content: ""; bottom: -8px; left: 5%; width: 90%; background: #4ac4f3; height: 8px; display: inline-block; z-index: -1; }
-.iq-client .client-img { width: 80px; height: 80px; display: inline-block; border-radius: 90px; position: absolute; left: 50%; top: 0; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.iq-client  i{ width: 80px; height: 80px; display: inline-block; border-radius: 90px; position: absolute; left: 50%; top: 0; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.iq-client .client-img{ width: 80px; height: 80px; display: inline-block; border-radius: 90px; position: absolute; left: 50%; top: 0; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
 .client-info { margin-top: 30px; }
 .client-name:before { content: "\f10d"; font-family: FontAwesome; position: absolute; top: 15px; left: 15px; font-size: 44px; color: #f0f0f0; line-height: normal; }
 .client-name:after { content: "\f10e"; font-family: FontAwesome; position: absolute; bottom: 15px; right: 15px; font-size: 44px; color: #f0f0f0; line-height: normal; }
@@ -1385,6 +1387,7 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
                              Get in Touch
 -----------------------------------------------------------------------*/
 .iq-footer-box .iq-icon i { font-size: 26px; float: left; margin-right: 20px; height: 60px; width: 60px; background: #f4f4f4; text-align: center; line-height: 60px; color: #4ac4f3; border-radius: 90px; }
+.iq-client .iq-icon i { font-size: 50px;  margin-right: 20px; height: 60px; width: 60px; background: #f4f4f4; text-align: center; line-height: 60px; color: #4ac4f3; border-radius: 90px; }
 .iq-footer-box .footer-content { display: table-cell; }
 .info-share { margin: 30px 0 0; padding: 0; text-align: left; }
 .info-share li { display: inline-block; list-style: none; padding: 0; margin: 0px 5px; }
@@ -1396,8 +1399,8 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
                            Footer Info
 -----------------------------------------------------------------------*/
 .footer-info { position: relative; }
-.footer-info .map { border: 0px; width: 100%; height: 600px; position: absolute; top: 0; left: 0; z-index: 1; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); }
-.iq-get-in { position: relative; z-index: 9; background: #fff; padding: 30px 30px; display: inline-block; width: 100%; margin-top: 30px; -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08); -moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08); box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08); }
+.footer-info .map { border: 0px; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); }
+.iq-get-in { position: relative; z-index: 9; background: #fff; padding: 30px 30px; display: inline-block; width: 100%; margin-top: 0px; -webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08); -moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08); box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.08); }
 .contact-form .section-field { position: relative; width: 100%; float: left; }
 .contact-form .section-field input { position: relative; width: 100%; margin-bottom: 20px; border-radius: 4px; padding-left: 20px; height: 48px; line-height: 48px; clear: both; color: #b6b6b6; border: 1px solid #e1e1e1; }
 .contact-form .section-field input:focus, .contact-form .section-field.textarea textarea:focus { border: 1px solid #4ac4f3; box-shadow: none; outline: none; }
@@ -1578,6 +1581,7 @@ to { -webkit-transform: rotateX(143deg) rotateY(50deg) rotateZ(0); transform: ro
 /*---------------------------------------------------------------------
                              Blog Page
 -----------------------------------------------------------------------*/
+.iq-page-blog {padding: 100px 0 0 0;}
 .iq-page-blog .iq-blog-box { box-shadow: none; border: 1px solid #ededed; }
 .iq-blog-box .iq-get-in { margin-top: 0; box-shadow: none; }
 .iq-post-author { position: relative; min-height: 130px; }
@@ -1948,28 +1952,28 @@ border-radius: 3px; margin-right: 2px; }
 .animationnew-shap{position: absolute; top: 0%; right: 0;}
 .animation-shap { position: absolute; top: 0%; left: 0;  }
 .animation-shap { position: absolute; top: 0%; left: 0;  }
-.animation-shap .shap-bg , .animationnew-shap .shap-bg { text-align: center; display flex; align-content: center; align-items: center; justify-content: center; width: 550px; height: 550px; margin: auto; position: relative; background-color: #4ac4f3; background-image: linear-gradient(-45deg, #4ac4f3 0%, #4ac4f3 100%); border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2); animation: one-animated 5s infinite; overflow: hidden; }
+.animation-shap .shap-bg , .animationnew-shap .shap-bg { text-align: center; display: flex; align-content: center; align-items: center; justify-content: center; width: 550px; height: 550px; margin: auto; position: relative; background-color: #4ac4f3; background-image: linear-gradient(-45deg, #4ac4f3 0%, #4ac4f3 100%); border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2); animation: one-animated 5s infinite; overflow: hidden; }
 @keyframes one-animated {
-    0% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%
-    box-shadow:15px 15px 50px rgba(0, 0, 0, 0.2); }
+    0% { border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; box-shadow:15px 15px 50px rgba(0, 0, 0, 0.2); }
+   
     25% { border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%; }
-    50% { border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%
+    50% { border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
     box-shadow:-10px -5px 50px rgba(0, 0, 0, 0.2); }
     75% { border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%; }
 }
 @keyframes two-animated {
-    0% { border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%
+    0% { border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
     box-shadow:15px 15px 50px rgba(0, 0, 0, 0.2); }
     25% { border-radius: 40% 80% 30% 90% / 72% 65% 35% 28%; }
-    50% { border-radius: 65% 35% 45% 55% / 22% 48% 52% 78%
+    50% { border-radius: 65% 35% 45% 55% / 22% 48% 52% 78%;
     box-shadow:-10px -5px 50px rgba(0, 0, 0, 0.2); }
     75% { border-radius: 24% 76% 10% 90% / 44% 68% 32% 56%; }
 }
 @keyframes three-animated {
-    0% { border-radius: 12% 88% 40% 40% / 20% 15% 85% 80%
+    0% { border-radius: 12% 88% 40% 40% / 20% 15% 85% 80%;
     box-shadow:15px 15px 50px rgba(0, 0, 0, 0.2); }
     25% { border-radius: 72% 28% 30% 90% / 15% 46% 54% 85%; }
-    50% { border-radius: 12% 88% 40% 40% / 20% 15% 85% 80%
+    50% { border-radius: 12% 88% 40% 40% / 20% 15% 85% 80%;
     box-shadow:-10px -5px 50px rgba(0, 0, 0, 0.2); }
     75% { border-radius: 18% 82% 10% 90% / 24% 68% 32% 76%; }
 }
@@ -1982,7 +1986,7 @@ border-radius: 3px; margin-right: 2px; }
 .iq-fancy-boxnew .iq-icon i { font-size: 46px; }
 .iq-fancy-boxnew .fancy-content h5 { z-index: 9; position: relative; }
 .iq-works-imgs{width: 100%;}
-.iq-fancy-boxnew.text-center .icon-bg { text-align: center; display flex; align-content: center; align-items: center; justify-content: center; width: 86px; height: 86px; margin: auto; position: relative; background-color: #4ac4f3; background-image: linear-gradient(-45deg, #4ac4f3 0%, #4ac4f3 100%); border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2); animation: one-animated 10s infinite; overflow: hidden; }
+.iq-fancy-boxnew.text-center .icon-bg { text-align: center; display: flex; align-content: center; align-items: center; justify-content: center; width: 86px; height: 86px; margin: auto; position: relative; background-color: #4ac4f3; background-image: linear-gradient(-45deg, #4ac4f3 0%, #4ac4f3 100%); border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.2); animation: one-animated 10s infinite; overflow: hidden; }
 
 
 
@@ -2000,3 +2004,11 @@ border-radius: 3px; margin-right: 2px; }
 .search-btn button{padding:10px 15px;margin-top:8px;margin-right:16px;border-radius: 4px;background:#333333;font-size:17px;border:none;cursor:pointer; color: #fff;}
 .search-btn button:focus {outline: none;}
 .search-btn button:hover{background: #fff; color: #333333;}
+
+/*project-list-page*/
+.Achieve-bg{overflow: hidden;border-radius: 0 20px 20px 20px;background-color: #ffffff; padding: 0 20px;}
+/*blog-detail-page*/
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
